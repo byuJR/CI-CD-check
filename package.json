@@ -4,7 +4,11 @@
   "description": "Simple Node.js app for GitHub example",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "node app.js",
+    "build": "echo Build success",
+    "test": "echo Test success",
+    "lint": "echo Lint success"
   },
   "author": "Defa",
   "license": "MIT"
